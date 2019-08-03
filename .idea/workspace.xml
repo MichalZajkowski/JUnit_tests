@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0108da9-9bec-41bc-a60b-b58d0042d797" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1OuCiEO2CYcAZ6F9QObGjPRYSj8" />
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.123046875" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StreamDynamicTest.translateDynamicTestsFromStream">
+    <configuration name="JUnitTests.assertArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_tests" />
+      <option name="PACKAGE_NAME" value="junittests" />
+      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
+      <option name="METHOD_NAME" value="assertArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTests.assertThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_tests" />
+      <option name="PACKAGE_NAME" value="junittests" />
+      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
+      <option name="METHOD_NAME" value="assertThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTests.shouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_tests" />
+      <option name="PACKAGE_NAME" value="junittests" />
+      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
+      <option name="METHOD_NAME" value="shouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTests.streamOfNumberShouldBeGreaterThen5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_tests" />
+      <option name="PACKAGE_NAME" value="junittests" />
+      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
+      <option name="METHOD_NAME" value="streamOfNumberShouldBeGreaterThen5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamDynamicTest.translateDynamicTestsFromStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_tests" />
+      <option name="PACKAGE_NAME" value="junittests" />
+      <option name="MAIN_CLASS_NAME" value="junittests.StreamDynamicTest" />
+      <option name="METHOD_NAME" value="translateDynamicTestsFromStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StreamDynamicTest.translateDynamicTestsFromStream" />
+        <item itemvalue="JUnit.JUnitTests.assertThrowsException" />
+        <item itemvalue="JUnit.JUnitTests.shouldThrowException" />
+        <item itemvalue="JUnit.JUnitTests.streamOfNumberShouldBeGreaterThen5" />
+        <item itemvalue="JUnit.JUnitTests.assertArray" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
