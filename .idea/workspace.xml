@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0108da9-9bec-41bc-a60b-b58d0042d797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junit/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junittests/JUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittests/JUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junittests/StreamDynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittests/StreamDynamicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/junittests/DynamicTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/junittests/JUnitTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junittests/JUnitTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JUnitTests.assertTshrowsException">
+  <component name="RunManager" selected="JUnit.JUnitTests.shouldThrowException">
     <configuration name="JUnitTests.assertThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_tests" />
       <option name="PACKAGE_NAME" value="junittests" />
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JUnitTests.shouldThrowException" />
         <item itemvalue="JUnit.JUnitTests.assertTshrowsException" />
         <item itemvalue="JUnit.StreamDynamicTest.converterDynamicTest" />
         <item itemvalue="JUnit.StreamDynamicTest.translateDynamicTestsFromStream" />
         <item itemvalue="JUnit.JUnitTests.assertThrowsException" />
-        <item itemvalue="JUnit.JUnitTests.shouldThrowException" />
       </list>
     </recent_temporary>
   </component>
