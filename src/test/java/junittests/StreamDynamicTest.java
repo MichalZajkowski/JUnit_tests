@@ -16,22 +16,23 @@ class StreamDynamicTest {
     private List<String> out = new ArrayList<>(Arrays.asList("Zero", "One", "Two"));
 
     @TestFactory
-    Stream<DynamicTest> translateDynamicTestsFromStream() {
-        return in.stream()
-                .map(sign -> DynamicTest.dynamicTest("Test converter " + sign, () -> {
-                    int id = in.indexOf(sign);
-                    assertEquals(out.get(id), converter(sign));
-                }));
+    Stream<DynamicTest> converterDynamicTest() {
+        return in.stream().map(sign -> DynamicTest.dynamicTest("Test converter " + sign, () -> {
+            int id = in.indexOf(sign);
+            assertEquals(out.get(id), converter(sign));
+        }));
     }
 
     private String converter(String sign) {
-        if ("0".equalsIgnoreCase(sign)) {
-            return "Zero";
-        } else if ("1".equalsIgnoreCase(sign)) {
-            return "One";
-        } else if ("2".equalsIgnoreCase(sign)) {
-            return "Two";
+        switch (sign) {
+            case "0":
+                return "Zero";
+            case "1":
+                return "One";
+            case "2":
+                return "Two";
+            default:
+                return "Error";
         }
-        return "Error";
     }
 }

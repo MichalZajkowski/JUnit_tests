@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0108da9-9bec-41bc-a60b-b58d0042d797" name="Default Changelist" comment="" />
+    <list default="true" id="b0108da9-9bec-41bc-a60b-b58d0042d797" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/junit/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junittests/JUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittests/JUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junittests/StreamDynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittests/StreamDynamicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/junittests/DynamicTests.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
@@ -27,6 +38,7 @@
   </component>
   <component name="ProjectId" id="1OuCiEO2CYcAZ6F9QObGjPRYSj8" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.123046875" />
@@ -45,22 +57,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamDynamicTest.translateDynamicTestsFromStream">
-    <configuration name="JUnitTests.assertArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit_tests" />
-      <option name="PACKAGE_NAME" value="junittests" />
-      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
-      <option name="METHOD_NAME" value="assertArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JUnitTests.assertTshrowsException">
     <configuration name="JUnitTests.assertThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_tests" />
       <option name="PACKAGE_NAME" value="junittests" />
       <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
       <option name="METHOD_NAME" value="assertThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTests.assertTshrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_tests" />
+      <option name="PACKAGE_NAME" value="junittests" />
+      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
+      <option name="METHOD_NAME" value="assertTshrowsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnitTests.streamOfNumberShouldBeGreaterThen5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamDynamicTest.converterDynamicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_tests" />
       <option name="PACKAGE_NAME" value="junittests" />
-      <option name="MAIN_CLASS_NAME" value="junittests.JUnitTests" />
-      <option name="METHOD_NAME" value="streamOfNumberShouldBeGreaterThen5" />
+      <option name="MAIN_CLASS_NAME" value="junittests.StreamDynamicTest" />
+      <option name="METHOD_NAME" value="converterDynamicTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,12 +110,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JUnitTests.assertTshrowsException" />
+        <item itemvalue="JUnit.StreamDynamicTest.converterDynamicTest" />
         <item itemvalue="JUnit.StreamDynamicTest.translateDynamicTestsFromStream" />
         <item itemvalue="JUnit.JUnitTests.assertThrowsException" />
         <item itemvalue="JUnit.JUnitTests.shouldThrowException" />
-        <item itemvalue="JUnit.JUnitTests.streamOfNumberShouldBeGreaterThen5" />
-        <item itemvalue="JUnit.JUnitTests.assertArray" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

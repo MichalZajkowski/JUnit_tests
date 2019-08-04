@@ -20,7 +20,8 @@ class JUnitTests {
         assertAll(
                 () -> assertEquals(numbers[1], 1),
                 () -> assertEquals(numbers[2], 2),
-                () -> assertEquals(numbers[3], 3)
+                () -> assertEquals(numbers[3], 3),
+                () -> assertEquals(numbers[4], 4)
         );
     }
 

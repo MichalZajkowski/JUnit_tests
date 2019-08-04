@@ -6,6 +6,6 @@ public class SimpleCalculator {
         if (divisor != 0) {
             return dividend / divisor;
         }
-        throw new ArithmeticException("Can not division by zero!");
+        throw new ArithmeticException("Can not divide by zero!");
     }
 }
