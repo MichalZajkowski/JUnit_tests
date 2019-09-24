@@ -1,5 +1,2 @@
-
-.idea/workspace.xml
-target/test-classes/junittests/JUnitTests.class
-.idea/workspace.xml
-.idea/workspace.xml
+/target/**
+/.idea/**
