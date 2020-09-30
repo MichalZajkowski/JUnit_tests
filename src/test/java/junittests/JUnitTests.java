@@ -1,11 +1,9 @@
 package junittests;
 
 import org.junit.jupiter.api.Test;
-
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JUnitTests {
 
@@ -35,7 +33,7 @@ class JUnitTests {
 
     @Test
     void assertThrowsException() {
-        String str = null;
+        String str = "";
         assertThrows(IllegalArgumentException.class, () -> {
             Integer.valueOf(str);
         });

@@ -12,8 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StreamDynamicTest {
 
-    private List<String> in = new ArrayList<>(Arrays.asList("0", "1", "2"));
-    private List<String> out = new ArrayList<>(Arrays.asList("Zero", "One", "Two"));
+    private final List<String> in = new ArrayList<>(Arrays.asList("0", "1", "2"));
+    private final List<String> out = new ArrayList<>(Arrays.asList("Zero", "One", "Two"));
 
     @TestFactory
     Stream<DynamicTest> converterDynamicTest() {
@@ -23,16 +23,14 @@ class StreamDynamicTest {
         }));
     }
 
+
+
     private String converter(String sign) {
-        switch (sign) {
-            case "0":
-                return "Zero";
-            case "1":
-                return "One";
-            case "2":
-                return "Two";
-            default:
-                return "Error";
-        }
+        return switch (sign) {
+            case "0" -> "Zero";
+            case "1" -> "One";
+            case "2" -> "Two";
+            default -> "Error";
+        };
     }
 }

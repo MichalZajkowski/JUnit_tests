@@ -1,8 +1,8 @@
 package junit;
 
 public class RangeInt {
-    private Integer loweLimit;
-    private Integer upperLimit;
+    private final Integer loweLimit;
+    private final Integer upperLimit;
 
     public RangeInt(int loweLimit, int upperLimit) {
         this.loweLimit = loweLimit;
